@@ -9,4 +9,11 @@ export class AppComponent {
   title = 'HostListner';
 
   active: boolean=false;
+
+
+  display: boolean=false;
+
+  DisplayNotice(){
+    this.display=true;
+  }
 }
